@@ -6,7 +6,7 @@
 ##    makeCacheMatrix above. If the inverse has already been calculated (and the matrix has not 
 ##    changed), then cacheSolve should retrieve the inverse from the cache.
 
-## BELOW IS MY CODE FOR THE ABOVE ASSIGNMENT- NEHRU PRABAKARAN
+## BELOW IS MY Program FOR THE ABOVE ASSIGNMENT- NEHRU PRABAKARAN
 
 makeCacheMatrix <- function(x = matrix()) {
   IM <- NULL                                
@@ -66,3 +66,4 @@ MyMatrix<-makeCacheMatrix(matrix(c(100,200,300,400), 2,2))
 cacheSolve(MyMatrix)
 #when the cacheSolve() was called for the second time, it returns the value from the cache and  
 #avoides the time consuming recomputation.
+
